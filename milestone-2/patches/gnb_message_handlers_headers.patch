@@ -1,0 +1,27 @@
+--- b1/ric-composer/gNB-e2sm-emu/gnb_message_handlers.h	2024-09-05 20:08:25
++++ b2/ric-composer/gNB-e2sm-emu/gnb_message_handlers.h	2024-09-05 20:30:02
+@@ -1,3 +1,14 @@
++/*
++ *                  Politecnico di Milano
++ *
++ *         Student: Caravano Andrea
++ *            A.Y.: 2023/2024
++ *
++ *   Last modified: 05/09/2024
++ *
++ *     Description: Mobile Radio Networks/Wireless Networks: OpenRAN Project (Milestone 2)
++ */
++
+ //
+ // Created by root on 10/28/22.
+ //
+@@ -36,6 +47,6 @@
+ void free_ue_list(UeListM* ue_list_m);
+ 
+ // specific ran write functions
+-void set_ue_properties(int rnti, bool prop_1, float prop_2);
++void set_ue_properties(int rnti);
+ void apply_properties_to_ue_list(UeListM* ue_list);
+-void initialize_ues_if_needed();
+\ No newline at end of file
++void initialize_ues_if_needed();

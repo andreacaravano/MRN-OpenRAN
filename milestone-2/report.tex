@@ -1,0 +1,160 @@
+%
+%                  Politecnico di Milano
+%
+%         Student: Caravano Andrea
+%            A.Y.: 2023/2024
+%
+%   Last modified: 07/09/2024
+%
+%     Description: Mobile Radio Networks/Wireless Networks: OpenRAN Project (Milestone 2)
+%
+
+\documentclass[a4paper,11pt]{article} % tipo di documento
+\usepackage[T1]{fontenc} % codifica dei font
+\usepackage[utf8]{inputenc} % lettere accentate da tastiera
+\usepackage[english,italian]{babel} % lingua del documento
+\usepackage{lipsum} % genera testo fittizio
+\usepackage{url} % per scrivere gli indirizzi Internet e/o di riferimento nella pagina
+
+\usepackage[hidelinks]{hyperref} % per modificare il comportamento dei collegamenti ipertestuali (+ leva colore attorno)
+
+\usepackage[margin=0.7in]{geometry} % margine di pagina
+
+\usepackage{graphicx} % per inserire immagini
+
+\usepackage[outputdir=../auxil]{minted} % per colorazione automatica del codice (installare pygments da Homebrew)
+% \usepackage{pythonhighlight} % per Python
+
+\setminted{ % si può impostare il linguaggio specifico con \setminted[JSON] ad esempio
+    linenos=true,
+    breaklines=true,
+    encoding=utf8,
+    fontsize=\normalsize,
+    frame=lines
+}
+
+\usepackage{fancyhdr}
+\usepackage{textcomp} % per gestione intestazione e piè di pagina
+
+\hypersetup{ % metadati di titolo e autore nel PDF
+    pdftitle={Mobile Radio Networks project - A.Y. 2023/24},
+    pdfauthor={Andrea Caravano}
+}
+
+\setlength{\parindent}{0pt} % rimuove l'indentazione del testo
+
+\begin{document}
+    \pagestyle{fancy}
+    \fancyhead{}\fancyfoot{}
+    \fancyhead[L]{\textbf{Mobile Radio Networks project}}
+    \fancyhead[R]{Andrea Caravano}
+    \fancyfoot[C]{\thepage}
+
+    \title{\textbf{Mobile Radio Networks project (OpenRAN)}\\Milestone 2: Requirements and design notes}
+    \author{Andrea Caravano}
+    \date{Academic Year 2023--24}
+    \maketitle
+
+
+    \section{Project requirements}\label{sec:project-requirements}
+
+    \subsection{Specifications}\label{subsec:specifications}
+
+    Implement an xApp that collects PHY/MAC metrics:
+
+    \begin{itemize}
+        \item Per-UE RSRP
+        \item Per-UE BER (uplink and downlink)
+        \item Per-UE MCS (uplink and downlink)
+        \item Cell load (i.e. allocated PRBs)
+    \end{itemize}
+
+    All values timestamped and saved in a CSV file
+
+    500ms data collection loop
+
+    \subsection{Meaningful values}\label{subsec:meaningful-values}
+
+    \begin{itemize}
+        \item RSRP: -44 dBm (optimal) to -144 dBm (worst)
+        \item BER: 0 to 1 (or 0 to 100, in percentage)
+        \item MCS: inspired by lectures exercises, 3 Mb/s (worst) to 100 Mb/s (optimal)
+        \item Cell load: 24 (worst) to 275 (maximum) PRBs
+    \end{itemize}
+
+
+    \section{Protobuf specification}\label{sec:protobuf}
+
+    \subsection{RAN parameters}\label{subsec:ran-parameters}
+
+    An overall RAN parameter have been added for the cell load.
+
+    Note that, since this is not treated as a per-UE parameter, this is added only once to the response (as expected).
+
+    \begin{minted}{Javascript}
+enum RAN_parameter{
+    GNB_ID = 1;
+    UE_LIST = 3;
+    CELL_LOAD = 4; // added
+}
+    \end{minted}
+
+    \subsection{per-UE parameters}\label{subsec:per-ue-parameters}
+
+    RSRP, BER and MCS measurements have been added.
+    BER and MCS are split in uplink and downlink directions, as per project specifications.
+
+    \begin{minted}{Javascript}
+message ue_info_m{
+    // this is to identify the ue
+    required int32 rnti=1;
+
+    // specific ue's measurements (these will come from the gnb)
+    optional float rsrp=2;
+    optional float berul=3;
+    optional float berdl=4;
+    optional float mcsul=5;
+    optional float mcsdl=6;
+}
+    \end{minted}
+
+
+    \section{Snippets}\label{sec:snippets}
+
+    \subsection{gNB message handler}\label{subsec:gnb-message-handler}
+
+    The described Protobuf specification translates into the following code snippets, in which the most important behaviours of the application is shown.
+
+    \begin{minted}{C++}
+void ran_read(RANParameter ran_par_enum, RANParamMapEntry* map_entry){
+...
+case RAN_PARAMETER__CELL_LOAD:
+    cell_load = (rand() % (275 - 24 + 1)) + 24;
+    map_entry->value_case = RAN_PARAM_MAP_ENTRY__VALUE_STRING_VALUE;
+    map_entry->string_value = int_to_charray(cell_load);
+    break;
+...
+}
+    \end{minted}
+
+    \begin{minted}{C++}
+UeListM* build_ue_list_message(){
+...
+ue_info_list[i]->has_rsrp = 1;
+ue_info_list[i]->rsrp = -((rand() % (144 - 44 + 1)) + 44); // dBm
+ue_info_list[i]->has_berul = 1;
+ue_info_list[i]->berul = (double)rand() / (double)RAND_MAX; // [0, 1]
+ue_info_list[i]->has_berdl = 1;
+ue_info_list[i]->berdl = (double)rand() / (double)RAND_MAX;
+ue_info_list[i]->has_mcsul = 1;
+ue_info_list[i]->mcsul = (rand() % (100 - 3 + 1)) + 3; // Mb/s
+ue_info_list[i]->has_mcsdl = 1;
+ue_info_list[i]->mcsdl = (rand() % (100 - 3 + 1)) + 3;
+...
+}
+    \end{minted}
+
+    \subsection{xApp}\label{subsec:xapp}
+
+    The xApp mantains the general overall behaviour, but report requests are sent every 500 ms, writing received data to a timestamped CSV file, as per specifications.
+\end{document}

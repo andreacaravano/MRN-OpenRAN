@@ -1,0 +1,3431 @@
+1725563226.5021346;"param_map {
+  key: GNB_ID
+  string_value: ""0""
+}
+param_map {
+  key: UE_LIST
+  ue_list {
+    connected_ues: 4
+    ue_info {
+      rnti: 1804289383
+      rsrp: -109.0
+      berul: 0.12979044
+      berdl: 0.1088088
+      mcsul: 32.0
+      mcsdl: 8.0
+    }
+    ue_info {
+      rnti: 846930886
+      rsrp: -95.0
+      berul: 0.8391122
+      berdl: 0.61263984
+      mcsul: 99.0
+      mcsdl: 62.0
+    }
+    ue_info {
+      rnti: 1681692777
+      rsrp: -105.0
+      berul: 0.493583
+      berdl: 0.97277504
+      mcsul: 12.0
+      mcsdl: 19.0
+    }
+    ue_info {
+      rnti: 1714636915
+      rsrp: -109.0
+      berul: 0.76991385
+      berdl: 0.40022862
+      mcsul: 66.0
+      mcsdl: 93.0
+    }
+  }
+}
+param_map {
+  key: CELL_LOAD
+  string_value: ""181""
+}
+"
+1725563227.012104;"param_map {
+  key: GNB_ID
+  string_value: ""0""
+}
+param_map {
+  key: UE_LIST
+  ue_list {
+    connected_ues: 4
+    ue_info {
+      rnti: 1804289383
+      rsrp: -131.0
+      berul: 0.9190265
+      berdl: 0.06975528
+      mcsul: 67.0
+      mcsdl: 90.0
+    }
+    ue_info {
+      rnti: 846930886
+      rsrp: -133.0
+      berul: 0.19221385
+      berdl: 0.6632269
+      mcsul: 67.0
+      mcsdl: 26.0
+    }
+    ue_info {
+      rnti: 1681692777
+      rsrp: -82.0
+      berul: 0.02002305
+      berdl: 0.45770174
+      mcsul: 34.0
+      mcsdl: 12.0
+    }
+    ue_info {
+      rnti: 1714636915
+      rsrp: -139.0
+      berul: 0.9022081
+      berdl: 0.8509198
+      mcsul: 83.0
+      mcsdl: 50.0
+    }
+  }
+}
+param_map {
+  key: CELL_LOAD
+  string_value: ""274""
+}
+"
+1725563227.5209768;"param_map {
+  key: GNB_ID
+  string_value: ""0""
+}
+param_map {
+  key: UE_LIST
+  ue_list {
+    connected_ues: 4
+    ue_info {
+      rnti: 1804289383
+      rsrp: -102.0
+      berul: 0.5125354
+      berdl: 0.6677238
+      mcsul: 15.0
+      mcsdl: 6.0
+    }
+    ue_info {
+      rnti: 846930886
+      rsrp: -82.0
+      berul: 0.93183506
+      berdl: 0.9308098
+      mcsul: 68.0
+      mcsdl: 35.0
+    }
+    ue_info {
+      rnti: 1681692777
+      rsrp: -134.0
+      berul: 0.6399788
+      berdl: 0.35404867
+      mcsul: 38.0
+      mcsdl: 27.0
+    }
+    ue_info {
+      rnti: 1714636915
+      rsrp: -124.0
+      berul: 0.8800752
+      berdl: 0.8292011
+      mcsul: 7.0
+      mcsdl: 10.0
+    }
+  }
+}
+param_map {
+  key: CELL_LOAD
+  string_value: ""215""
+}
+"
+1725563228.0370827;"param_map {
+  key: GNB_ID
+  string_value: ""0""
+}
+param_map {
+  key: UE_LIST
+  ue_list {
+    connected_ues: 4
+    ue_info {
+      rnti: 1804289383
+      rsrp: -65.0
+      berul: 0.6866699
+      berdl: 0.9564682
+      mcsul: 21.0
+      mcsdl: 15.0
+    }
+    ue_info {
+      rnti: 846930886
+      rsrp: -52.0
+      berul: 0.4395599
+      berdl: 0.9239698
+      mcsul: 91.0
+      mcsdl: 23.0
+    }
+    ue_info {
+      rnti: 1681692777
+      rsrp: -138.0
+      berul: 0.91097206
+      berdl: 0.48249066
+      mcsul: 59.0
+      mcsdl: 83.0
+    }
+    ue_info {
+      rnti: 1714636915
+      rsrp: -58.0
+      berul: 0.14766002
+      berdl: 0.88106215
+      mcsul: 24.0
+      mcsdl: 79.0
+    }
+  }
+}
+param_map {
+  key: CELL_LOAD
+  string_value: ""237""
+}
+"
+1725563228.5464811;"param_map {
+  key: GNB_ID
+  string_value: ""0""
+}
+param_map {
+  key: UE_LIST
+  ue_list {
+    connected_ues: 4
+    ue_info {
+      rnti: 1804289383
+      rsrp: -91.0
+      berul: 0.7860021
+      berdl: 0.30745786
+      mcsul: 84.0
+      mcsdl: 75.0
+    }
+    ue_info {
+      rnti: 846930886
+      rsrp: -61.0
+      berul: 0.2762347
+      berdl: 0.55644375
+      mcsul: 58.0
+      mcsdl: 79.0
+    }
+    ue_info {
+      rnti: 1681692777
+      rsrp: -104.0
+      berul: 0.10317119
+      berdl: 0.12607534
+      mcsul: 62.0
+      mcsdl: 56.0
+    }
+    ue_info {
+      rnti: 1714636915
+      rsrp: -141.0
+      berul: 0.935004
+      berdl: 0.684445
+      mcsul: 64.0
+      mcsdl: 18.0
+    }
+  }
+}
+param_map {
+  key: CELL_LOAD
+  string_value: ""127""
+}
+"
+1725563229.0628915;"param_map {
+  key: GNB_ID
+  string_value: ""0""
+}
+param_map {
+  key: UE_LIST
+  ue_list {
+    connected_ues: 4
+    ue_info {
+      rnti: 1804289383
+      rsrp: -111.0
+      berul: 0.23226154
+      berdl: 0.5844885
+      mcsul: 36.0
+      mcsdl: 53.0
+    }
+    ue_info {
+      rnti: 846930886
+      rsrp: -111.0
+      berul: 0.1254749
+      berdl: 0.7934704
+      mcsul: 84.0
+      mcsdl: 71.0
+    }
+    ue_info {
+      rnti: 1681692777
+      rsrp: -104.0
+      berul: 0.95010406
+      berdl: 0.052529264
+      mcsul: 70.0
+      mcsdl: 48.0
+    }
+    ue_info {
+      rnti: 1714636915
+      rsrp: -106.0
+      berul: 0.79779804
+      berdl: 0.7326544
+      mcsul: 97.0
+      mcsdl: 6.0
+    }
+  }
+}
+param_map {
+  key: CELL_LOAD
+  string_value: ""244""
+}
+"
+1725563229.5772345;"param_map {
+  key: GNB_ID
+  string_value: ""0""
+}
+param_map {
+  key: UE_LIST
+  ue_list {
+    connected_ues: 4
+    ue_info {
+      rnti: 1804289383
+      rsrp: -48.0
+      berul: 0.093480475
+      berdl: 0.13490242
+      mcsul: 49.0
+      mcsdl: 64.0
+    }
+    ue_info {
+      rnti: 846930886
+      rsrp: -126.0
+      berul: 0.20465508
+      berdl: 0.46142048
+      mcsul: 94.0
+      mcsdl: 56.0
+    }
+    ue_info {
+      rnti: 1681692777
+      rsrp: -111.0
+      berul: 0.05193882
+      berdl: 0.15780713
+      mcsul: 58.0
+      mcsdl: 97.0
+    }
+    ue_info {
+      rnti: 1714636915
+      rsrp: -110.0
+      berul: 0.12546848
+      berdl: 0.997799
+      mcsul: 5.0
+      mcsdl: 77.0
+    }
+  }
+}
+param_map {
+  key: CELL_LOAD
+  string_value: ""202""
+}
+"
+1725563230.0913572;"param_map {
+  key: GNB_ID
+  string_value: ""0""
+}
+param_map {
+  key: UE_LIST
+  ue_list {
+    connected_ues: 4
+    ue_info {
+      rnti: 1804289383
+      rsrp: -46.0
+      berul: 0.9230691
+      berdl: 0.59389216
+      mcsul: 24.0
+      mcsdl: 62.0
+    }
+    ue_info {
+      rnti: 846930886
+      rsrp: -108.0
+      berul: 0.9130267
+      berdl: 0.8196952
+      mcsul: 19.0
+      mcsdl: 70.0
+    }
+    ue_info {
+      rnti: 1681692777
+      rsrp: -117.0
+      berul: 0.45257583
+      berdl: 0.6873874
+      mcsul: 54.0
+      mcsdl: 71.0
+    }
+    ue_info {
+      rnti: 1714636915
+      rsrp: -122.0
+      berul: 0.30429515
+      berdl: 0.99222845
+      mcsul: 80.0
+      mcsdl: 14.0
+    }
+  }
+}
+param_map {
+  key: CELL_LOAD
+  string_value: ""207""
+}
+"
+1725563230.6012125;"param_map {
+  key: GNB_ID
+  string_value: ""0""
+}
+param_map {
+  key: UE_LIST
+  ue_list {
+    connected_ues: 4
+    ue_info {
+      rnti: 1804289383
+      rsrp: -120.0
+      berul: 0.035420906
+      berdl: 0.74780285
+      mcsul: 22.0
+      mcsdl: 48.0
+    }
+    ue_info {
+      rnti: 846930886
+      rsrp: -90.0
+      berul: 0.8310375
+      berdl: 0.97943413
+      mcsul: 23.0
+      mcsdl: 56.0
+    }
+    ue_info {
+      rnti: 1681692777
+      rsrp: -84.0
+      berul: 0.6668803
+      berdl: 0.4972585
+      mcsul: 3.0
+      mcsdl: 5.0
+    }
+    ue_info {
+      rnti: 1714636915
+      rsrp: -130.0
+      berul: 0.07699468
+      berdl: 0.64970696
+      mcsul: 21.0
+      mcsdl: 72.0
+    }
+  }
+}
+param_map {
+  key: CELL_LOAD
+  string_value: ""141""
+}
+"
+1725563231.1120331;"param_map {
+  key: GNB_ID
+  string_value: ""0""
+}
+param_map {
+  key: UE_LIST
+  ue_list {
+    connected_ues: 4
+    ue_info {
+      rnti: 1804289383
+      rsrp: -130.0
+      berul: 0.31686714
+      berdl: 0.32877705
+      mcsul: 52.0
+      mcsdl: 65.0
+    }
+    ue_info {
+      rnti: 846930886
+      rsrp: -111.0
+      berul: 0.22365642
+      berdl: 0.6511321
+      mcsul: 97.0
+      mcsdl: 74.0
+    }
+    ue_info {
+      rnti: 1681692777
+      rsrp: -75.0
+      berul: 0.5461069
+      berdl: 0.71926856
+      mcsul: 96.0
+      mcsdl: 81.0
+    }
+    ue_info {
+      rnti: 1714636915
+      rsrp: -120.0
+      berul: 0.9443181
+      berdl: 0.45091757
+      mcsul: 35.0
+      mcsdl: 51.0
+    }
+  }
+}
+param_map {
+  key: CELL_LOAD
+  string_value: ""85""
+}
+"
+1725563231.6265972;"param_map {
+  key: GNB_ID
+  string_value: ""0""
+}
+param_map {
+  key: UE_LIST
+  ue_list {
+    connected_ues: 4
+    ue_info {
+      rnti: 1804289383
+      rsrp: -144.0
+      berul: 0.34494296
+      berdl: 0.5984813
+      mcsul: 35.0
+      mcsdl: 96.0
+    }
+    ue_info {
+      rnti: 846930886
+      rsrp: -51.0
+      berul: 0.48295027
+      berdl: 0.48193583
+      mcsul: 92.0
+      mcsdl: 25.0
+    }
+    ue_info {
+      rnti: 1681692777
+      rsrp: -72.0
+      berul: 0.62182283
+      berdl: 0.040864304
+      mcsul: 46.0
+      mcsdl: 35.0
+    }
+    ue_info {
+      rnti: 1714636915
+      rsrp: -67.0
+      berul: 0.6376402
+      berdl: 0.34711587
+      mcsul: 33.0
+      mcsdl: 73.0
+    }
+  }
+}
+param_map {
+  key: CELL_LOAD
+  string_value: ""101""
+}
+"
+1725563232.1384652;"param_map {
+  key: GNB_ID
+  string_value: ""0""
+}
+param_map {
+  key: UE_LIST
+  ue_list {
+    connected_ues: 4
+    ue_info {
+      rnti: 1804289383
+      rsrp: -141.0
+      berul: 0.32837445
+      berdl: 0.74043846
+      mcsul: 45.0
+      mcsdl: 97.0
+    }
+    ue_info {
+      rnti: 846930886
+      rsrp: -69.0
+      berul: 0.65313035
+      berdl: 0.25726548
+      mcsul: 47.0
+      mcsdl: 47.0
+    }
+    ue_info {
+      rnti: 1681692777
+      rsrp: -127.0
+      berul: 0.87738395
+      berdl: 0.6861249
+      mcsul: 5.0
+      mcsdl: 89.0
+    }
+    ue_info {
+      rnti: 1714636915
+      rsrp: -44.0
+      berul: 0.5766905
+      berdl: 0.5932115
+      mcsul: 22.0
+      mcsdl: 83.0
+    }
+  }
+}
+param_map {
+  key: CELL_LOAD
+  string_value: ""188""
+}
+"
+1725563232.648511;"param_map {
+  key: GNB_ID
+  string_value: ""0""
+}
+param_map {
+  key: UE_LIST
+  ue_list {
+    connected_ues: 4
+    ue_info {
+      rnti: 1804289383
+      rsrp: -131.0
+      berul: 0.3296421
+      berdl: 0.18975098
+      mcsul: 78.0
+      mcsdl: 67.0
+    }
+    ue_info {
+      rnti: 846930886
+      rsrp: -110.0
+      berul: 0.33147907
+      berdl: 0.18820104
+      mcsul: 68.0
+      mcsdl: 14.0
+    }
+    ue_info {
+      rnti: 1681692777
+      rsrp: -131.0
+      berul: 0.7648714
+      berdl: 0.6990754
+      mcsul: 6.0
+      mcsdl: 58.0
+    }
+    ue_info {
+      rnti: 1714636915
+      rsrp: -141.0
+      berul: 0.7742735
+      berdl: 0.9430513
+      mcsul: 54.0
+      mcsdl: 77.0
+    }
+  }
+}
+param_map {
+  key: CELL_LOAD
+  string_value: ""62""
+}
+"
+1725563233.1637795;"param_map {
+  key: GNB_ID
+  string_value: ""0""
+}
+param_map {
+  key: UE_LIST
+  ue_list {
+    connected_ues: 4
+    ue_info {
+      rnti: 1804289383
+      rsrp: -127.0
+      berul: 0.54804206
+      berdl: 0.29728845
+      mcsul: 35.0
+      mcsdl: 69.0
+    }
+    ue_info {
+      rnti: 846930886
+      rsrp: -58.0
+      berul: 0.49814394
+      berdl: 0.57619953
+      mcsul: 56.0
+      mcsdl: 43.0
+    }
+    ue_info {
+      rnti: 1681692777
+      rsrp: -60.0
+      berul: 0.49239883
+      berdl: 0.46366215
+      mcsul: 21.0
+      mcsdl: 53.0
+    }
+    ue_info {
+      rnti: 1714636915
+      rsrp: -79.0
+      berul: 0.18042123
+      berdl: 0.6841784
+      mcsul: 99.0
+      mcsdl: 5.0
+    }
+  }
+}
+param_map {
+  key: CELL_LOAD
+  string_value: ""270""
+}
+"
+1725563233.6729748;"param_map {
+  key: GNB_ID
+  string_value: ""0""
+}
+param_map {
+  key: UE_LIST
+  ue_list {
+    connected_ues: 4
+    ue_info {
+      rnti: 1804289383
+      rsrp: -55.0
+      berul: 0.8381336
+      berdl: 0.724252
+      mcsul: 72.0
+      mcsdl: 79.0
+    }
+    ue_info {
+      rnti: 846930886
+      rsrp: -110.0
+      berul: 0.12125878
+      berdl: 0.13823846
+      mcsul: 30.0
+      mcsdl: 78.0
+    }
+    ue_info {
+      rnti: 1681692777
+      rsrp: -91.0
+      berul: 0.90848464
+      berdl: 0.62209547
+      mcsul: 21.0
+      mcsdl: 90.0
+    }
+    ue_info {
+      rnti: 1714636915
+      rsrp: -109.0
+      berul: 0.3349717
+      berdl: 0.39432716
+      mcsul: 17.0
+      mcsdl: 7.0
+    }
+  }
+}
+param_map {
+  key: CELL_LOAD
+  string_value: ""262""
+}
+"
+1725563234.1808083;"param_map {
+  key: GNB_ID
+  string_value: ""0""
+}
+param_map {
+  key: UE_LIST
+  ue_list {
+    connected_ues: 4
+    ue_info {
+      rnti: 1804289383
+      rsrp: -80.0
+      berul: 0.072545014
+      berdl: 0.10784828
+      mcsul: 10.0
+      mcsdl: 29.0
+    }
+    ue_info {
+      rnti: 846930886
+      rsrp: -77.0
+      berul: 0.33138582
+      berdl: 0.09114858
+      mcsul: 43.0
+      mcsdl: 21.0
+    }
+    ue_info {
+      rnti: 1681692777
+      rsrp: -120.0
+      berul: 0.26546133
+      berdl: 0.65874666
+      mcsul: 12.0
+      mcsdl: 89.0
+    }
+    ue_info {
+      rnti: 1714636915
+      rsrp: -90.0
+      berul: 0.8830366
+      berdl: 0.6256653
+      mcsul: 67.0
+      mcsdl: 10.0
+    }
+  }
+}
+param_map {
+  key: CELL_LOAD
+  string_value: ""26""
+}
+"
+1725563234.6965628;"param_map {
+  key: GNB_ID
+  string_value: ""0""
+}
+param_map {
+  key: UE_LIST
+  ue_list {
+    connected_ues: 4
+    ue_info {
+      rnti: 1804289383
+      rsrp: -92.0
+      berul: 0.82993907
+      berdl: 0.39438838
+      mcsul: 34.0
+      mcsdl: 14.0
+    }
+    ue_info {
+      rnti: 846930886
+      rsrp: -53.0
+      berul: 0.6386542
+      berdl: 0.9848446
+      mcsul: 58.0
+      mcsdl: 49.0
+    }
+    ue_info {
+      rnti: 1681692777
+      rsrp: -101.0
+      berul: 0.41078794
+      berdl: 0.0054085483
+      mcsul: 46.0
+      mcsdl: 81.0
+    }
+    ue_info {
+      rnti: 1714636915
+      rsrp: -48.0
+      berul: 0.11466781
+      berdl: 0.86553484
+      mcsul: 85.0
+      mcsdl: 84.0
+    }
+  }
+}
+param_map {
+  key: CELL_LOAD
+  string_value: ""76""
+}
+"
+1725563235.207783;"param_map {
+  key: GNB_ID
+  string_value: ""0""
+}
+param_map {
+  key: UE_LIST
+  ue_list {
+    connected_ues: 4
+    ue_info {
+      rnti: 1804289383
+      rsrp: -62.0
+      berul: 0.7079091
+      berdl: 0.21088292
+      mcsul: 40.0
+      mcsdl: 9.0
+    }
+    ue_info {
+      rnti: 846930886
+      rsrp: -121.0
+      berul: 0.0995593
+      berdl: 0.38289595
+      mcsul: 57.0
+      mcsdl: 28.0
+    }
+    ue_info {
+      rnti: 1681692777
+      rsrp: -131.0
+      berul: 0.13170214
+      berdl: 0.051508285
+      mcsul: 5.0
+      mcsdl: 21.0
+    }
+    ue_info {
+      rnti: 1714636915
+      rsrp: -75.0
+      berul: 0.69207644
+      berdl: 0.44256023
+      mcsul: 25.0
+      mcsdl: 26.0
+    }
+  }
+}
+param_map {
+  key: CELL_LOAD
+  string_value: ""172""
+}
+"
+1725563235.7191532;"param_map {
+  key: GNB_ID
+  string_value: ""0""
+}
+param_map {
+  key: UE_LIST
+  ue_list {
+    connected_ues: 4
+    ue_info {
+      rnti: 1804289383
+      rsrp: -122.0
+      berul: 0.59504527
+      berdl: 0.36191684
+      mcsul: 13.0
+      mcsdl: 73.0
+    }
+    ue_info {
+      rnti: 846930886
+      rsrp: -52.0
+      berul: 0.16982026
+      berdl: 0.6097291
+      mcsul: 32.0
+      mcsdl: 80.0
+    }
+    ue_info {
+      rnti: 1681692777
+      rsrp: -141.0
+      berul: 0.23365621
+      berdl: 0.8298083
+      mcsul: 56.0
+      mcsdl: 17.0
+    }
+    ue_info {
+      rnti: 1714636915
+      rsrp: -114.0
+      berul: 0.1696495
+      berdl: 0.48173335
+      mcsul: 57.0
+      mcsdl: 49.0
+    }
+  }
+}
+param_map {
+  key: CELL_LOAD
+  string_value: ""77""
+}
+"
+1725563236.2328212;"param_map {
+  key: GNB_ID
+  string_value: ""0""
+}
+param_map {
+  key: UE_LIST
+  ue_list {
+    connected_ues: 4
+    ue_info {
+      rnti: 1804289383
+      rsrp: -78.0
+      berul: 0.8782777
+      berdl: 0.34425095
+      mcsul: 82.0
+      mcsdl: 30.0
+    }
+    ue_info {
+      rnti: 846930886
+      rsrp: -141.0
+      berul: 0.2574689
+      berdl: 0.7782573
+      mcsul: 15.0
+      mcsdl: 74.0
+    }
+    ue_info {
+      rnti: 1681692777
+      rsrp: -106.0
+      berul: 0.22100936
+      berdl: 0.19802059
+      mcsul: 93.0
+      mcsdl: 26.0
+    }
+    ue_info {
+      rnti: 1714636915
+      rsrp: -72.0
+      berul: 0.78226227
+      berdl: 0.7194618
+      mcsul: 97.0
+      mcsdl: 52.0
+    }
+  }
+}
+param_map {
+  key: CELL_LOAD
+  string_value: ""60""
+}
+"
+1725563236.74182;"param_map {
+  key: GNB_ID
+  string_value: ""0""
+}
+param_map {
+  key: UE_LIST
+  ue_list {
+    connected_ues: 4
+    ue_info {
+      rnti: 1804289383
+      rsrp: -65.0
+      berul: 0.23099595
+      berdl: 0.38574824
+      mcsul: 65.0
+      mcsdl: 5.0
+    }
+    ue_info {
+      rnti: 846930886
+      rsrp: -115.0
+      berul: 0.014579344
+      berdl: 0.38021466
+      mcsul: 32.0
+      mcsdl: 72.0
+    }
+    ue_info {
+      rnti: 1681692777
+      rsrp: -66.0
+      berul: 0.26044485
+      berdl: 0.649659
+      mcsul: 57.0
+      mcsdl: 76.0
+    }
+    ue_info {
+      rnti: 1714636915
+      rsrp: -55.0
+      berul: 0.8097853
+      berdl: 0.6978482
+      mcsul: 43.0
+      mcsdl: 22.0
+    }
+  }
+}
+param_map {
+  key: CELL_LOAD
+  string_value: ""83""
+}
+"
+1725563237.2529738;"param_map {
+  key: GNB_ID
+  string_value: ""0""
+}
+param_map {
+  key: UE_LIST
+  ue_list {
+    connected_ues: 4
+    ue_info {
+      rnti: 1804289383
+      rsrp: -73.0
+      berul: 0.8439096
+      berdl: 0.61844677
+      mcsul: 63.0
+      mcsdl: 52.0
+    }
+    ue_info {
+      rnti: 846930886
+      rsrp: -110.0
+      berul: 0.36215433
+      berdl: 0.71886724
+      mcsul: 34.0
+      mcsdl: 5.0
+    }
+    ue_info {
+      rnti: 1681692777
+      rsrp: -51.0
+      berul: 0.03289265
+      berdl: 0.0635606
+      mcsul: 16.0
+      mcsdl: 92.0
+    }
+    ue_info {
+      rnti: 1714636915
+      rsrp: -120.0
+      berul: 0.7003011
+      berdl: 0.5678311
+      mcsul: 76.0
+      mcsdl: 100.0
+    }
+  }
+}
+param_map {
+  key: CELL_LOAD
+  string_value: ""47""
+}
+"
+1725563237.7665844;"param_map {
+  key: GNB_ID
+  string_value: ""0""
+}
+param_map {
+  key: UE_LIST
+  ue_list {
+    connected_ues: 4
+    ue_info {
+      rnti: 1804289383
+      rsrp: -68.0
+      berul: 0.6553681
+      berdl: 0.8575552
+      mcsul: 52.0
+      mcsdl: 15.0
+    }
+    ue_info {
+      rnti: 846930886
+      rsrp: -137.0
+      berul: 0.8790094
+      berdl: 0.65330493
+      mcsul: 3.0
+      mcsdl: 50.0
+    }
+    ue_info {
+      rnti: 1681692777
+      rsrp: -112.0
+      berul: 0.15713918
+      berdl: 0.503461
+      mcsul: 10.0
+      mcsdl: 91.0
+    }
+    ue_info {
+      rnti: 1714636915
+      rsrp: -47.0
+      berul: 0.19111164
+      berdl: 0.3945213
+      mcsul: 82.0
+      mcsdl: 18.0
+    }
+  }
+}
+param_map {
+  key: CELL_LOAD
+  string_value: ""261""
+}
+"
+1725563238.277746;"param_map {
+  key: GNB_ID
+  string_value: ""0""
+}
+param_map {
+  key: UE_LIST
+  ue_list {
+    connected_ues: 4
+    ue_info {
+      rnti: 1804289383
+      rsrp: -122.0
+      berul: 0.9324846
+      berdl: 0.23311889
+      mcsul: 62.0
+      mcsdl: 26.0
+    }
+    ue_info {
+      rnti: 846930886
+      rsrp: -102.0
+      berul: 0.49440688
+      berdl: 0.55256844
+      mcsul: 85.0
+      mcsdl: 88.0
+    }
+    ue_info {
+      rnti: 1681692777
+      rsrp: -66.0
+      berul: 0.59449726
+      berdl: 0.65720093
+      mcsul: 71.0
+      mcsdl: 37.0
+    }
+    ue_info {
+      rnti: 1714636915
+      rsrp: -61.0
+      berul: 0.87430936
+      berdl: 0.5891567
+      mcsul: 5.0
+      mcsdl: 61.0
+    }
+  }
+}
+param_map {
+  key: CELL_LOAD
+  string_value: ""28""
+}
+"
+1725563238.785892;"param_map {
+  key: GNB_ID
+  string_value: ""0""
+}
+param_map {
+  key: UE_LIST
+  ue_list {
+    connected_ues: 4
+    ue_info {
+      rnti: 1804289383
+      rsrp: -46.0
+      berul: 0.26278457
+      berdl: 0.60437876
+      mcsul: 87.0
+      mcsdl: 77.0
+    }
+    ue_info {
+      rnti: 846930886
+      rsrp: -104.0
+      berul: 0.8650855
+      berdl: 0.87302136
+      mcsul: 39.0
+      mcsdl: 76.0
+    }
+    ue_info {
+      rnti: 1681692777
+      rsrp: -72.0
+      berul: 0.59689903
+      berdl: 0.6456015
+      mcsul: 97.0
+      mcsdl: 51.0
+    }
+    ue_info {
+      rnti: 1714636915
+      rsrp: -79.0
+      berul: 0.032963395
+      berdl: 0.70091033
+      mcsul: 65.0
+      mcsdl: 5.0
+    }
+  }
+}
+param_map {
+  key: CELL_LOAD
+  string_value: ""255""
+}
+"
+1725563239.298653;"param_map {
+  key: GNB_ID
+  string_value: ""0""
+}
+param_map {
+  key: UE_LIST
+  ue_list {
+    connected_ues: 4
+    ue_info {
+      rnti: 1804289383
+      rsrp: -110.0
+      berul: 0.48981
+      berdl: 0.51034904
+      mcsul: 33.0
+      mcsdl: 82.0
+    }
+    ue_info {
+      rnti: 846930886
+      rsrp: -96.0
+      berul: 0.6376564
+      berdl: 0.4521224
+      mcsul: 72.0
+      mcsdl: 21.0
+    }
+    ue_info {
+      rnti: 1681692777
+      rsrp: -124.0
+      berul: 0.40676656
+      berdl: 0.017456604
+      mcsul: 23.0
+      mcsdl: 75.0
+    }
+    ue_info {
+      rnti: 1714636915
+      rsrp: -108.0
+      berul: 0.58268225
+      berdl: 0.44674253
+      mcsul: 86.0
+      mcsdl: 30.0
+    }
+  }
+}
+param_map {
+  key: CELL_LOAD
+  string_value: ""129""
+}
+"
+1725563239.8109014;"param_map {
+  key: GNB_ID
+  string_value: ""0""
+}
+param_map {
+  key: UE_LIST
+  ue_list {
+    connected_ues: 4
+    ue_info {
+      rnti: 1804289383
+      rsrp: -62.0
+      berul: 0.6407663
+      berdl: 0.5972798
+      mcsul: 62.0
+      mcsdl: 50.0
+    }
+    ue_info {
+      rnti: 846930886
+      rsrp: -52.0
+      berul: 0.9235127
+      berdl: 0.7379385
+      mcsul: 92.0
+      mcsdl: 86.0
+    }
+    ue_info {
+      rnti: 1681692777
+      rsrp: -76.0
+      berul: 0.9526622
+      berdl: 0.94891083
+      mcsul: 84.0
+      mcsdl: 9.0
+    }
+    ue_info {
+      rnti: 1714636915
+      rsrp: -95.0
+      berul: 0.5367425
+      berdl: 0.21913606
+      mcsul: 16.0
+      mcsdl: 33.0
+    }
+  }
+}
+param_map {
+  key: CELL_LOAD
+  string_value: ""58""
+}
+"
+1725563240.3196635;"param_map {
+  key: GNB_ID
+  string_value: ""0""
+}
+param_map {
+  key: UE_LIST
+  ue_list {
+    connected_ues: 4
+    ue_info {
+      rnti: 1804289383
+      rsrp: -115.0
+      berul: 0.96727693
+      berdl: 0.18376535
+      mcsul: 42.0
+      mcsdl: 8.0
+    }
+    ue_info {
+      rnti: 846930886
+      rsrp: -52.0
+      berul: 0.9047815
+      berdl: 0.25758538
+      mcsul: 49.0
+      mcsdl: 50.0
+    }
+    ue_info {
+      rnti: 1681692777
+      rsrp: -85.0
+      berul: 0.40237877
+      berdl: 0.5607845
+      mcsul: 20.0
+      mcsdl: 21.0
+    }
+    ue_info {
+      rnti: 1714636915
+      rsrp: -67.0
+      berul: 0.47796088
+      berdl: 0.36010513
+      mcsul: 4.0
+      mcsdl: 67.0
+    }
+  }
+}
+param_map {
+  key: CELL_LOAD
+  string_value: ""30""
+}
+"
+1725563240.8311224;"param_map {
+  key: GNB_ID
+  string_value: ""0""
+}
+param_map {
+  key: UE_LIST
+  ue_list {
+    connected_ues: 4
+    ue_info {
+      rnti: 1804289383
+      rsrp: -105.0
+      berul: 0.8654335
+      berdl: 0.10977769
+      mcsul: 90.0
+      mcsdl: 50.0
+    }
+    ue_info {
+      rnti: 846930886
+      rsrp: -115.0
+      berul: 0.5926919
+      berdl: 0.67655396
+      mcsul: 30.0
+      mcsdl: 80.0
+    }
+    ue_info {
+      rnti: 1681692777
+      rsrp: -120.0
+      berul: 0.5636174
+      berdl: 0.24262583
+      mcsul: 26.0
+      mcsdl: 3.0
+    }
+    ue_info {
+      rnti: 1714636915
+      rsrp: -77.0
+      berul: 0.9236923
+      berdl: 0.6014267
+      mcsul: 58.0
+      mcsdl: 54.0
+    }
+  }
+}
+param_map {
+  key: CELL_LOAD
+  string_value: ""40""
+}
+"
+1725563241.3456342;"param_map {
+  key: GNB_ID
+  string_value: ""0""
+}
+param_map {
+  key: UE_LIST
+  ue_list {
+    connected_ues: 4
+    ue_info {
+      rnti: 1804289383
+      rsrp: -123.0
+      berul: 0.44798154
+      berdl: 0.4877207
+      mcsul: 4.0
+      mcsdl: 41.0
+    }
+    ue_info {
+      rnti: 846930886
+      rsrp: -120.0
+      berul: 0.15533638
+      berdl: 0.29288912
+      mcsul: 77.0
+      mcsdl: 36.0
+    }
+    ue_info {
+      rnti: 1681692777
+      rsrp: -114.0
+      berul: 0.74763775
+      berdl: 0.47580564
+      mcsul: 68.0
+      mcsdl: 32.0
+    }
+    ue_info {
+      rnti: 1714636915
+      rsrp: -112.0
+      berul: 0.865679
+      berdl: 0.62319446
+      mcsul: 89.0
+      mcsdl: 36.0
+    }
+  }
+}
+param_map {
+  key: CELL_LOAD
+  string_value: ""95""
+}
+"
+1725563241.862058;"param_map {
+  key: GNB_ID
+  string_value: ""0""
+}
+param_map {
+  key: UE_LIST
+  ue_list {
+    connected_ues: 4
+    ue_info {
+      rnti: 1804289383
+      rsrp: -126.0
+      berul: 0.16716535
+      berdl: 0.20297699
+      mcsul: 84.0
+      mcsdl: 88.0
+    }
+    ue_info {
+      rnti: 846930886
+      rsrp: -103.0
+      berul: 0.22755188
+      berdl: 0.9469247
+      mcsul: 67.0
+      mcsdl: 43.0
+    }
+    ue_info {
+      rnti: 1681692777
+      rsrp: -111.0
+      berul: 0.46184778
+      berdl: 0.64854515
+      mcsul: 83.0
+      mcsdl: 90.0
+    }
+    ue_info {
+      rnti: 1714636915
+      rsrp: -130.0
+      berul: 0.07055697
+      berdl: 0.39374608
+      mcsul: 58.0
+      mcsdl: 14.0
+    }
+  }
+}
+param_map {
+  key: CELL_LOAD
+  string_value: ""114""
+}
+"
+1725563242.372978;"param_map {
+  key: GNB_ID
+  string_value: ""0""
+}
+param_map {
+  key: UE_LIST
+  ue_list {
+    connected_ues: 4
+    ue_info {
+      rnti: 1804289383
+      rsrp: -92.0
+      berul: 0.91239053
+      berdl: 0.5661645
+      mcsul: 79.0
+      mcsdl: 92.0
+    }
+    ue_info {
+      rnti: 846930886
+      rsrp: -77.0
+      berul: 0.8139037
+      berdl: 0.7533827
+      mcsul: 32.0
+      mcsdl: 57.0
+    }
+    ue_info {
+      rnti: 1681692777
+      rsrp: -90.0
+      berul: 0.52354836
+      berdl: 0.20094687
+      mcsul: 4.0
+      mcsdl: 97.0
+    }
+    ue_info {
+      rnti: 1714636915
+      rsrp: -53.0
+      berul: 0.88934344
+      berdl: 0.6467118
+      mcsul: 89.0
+      mcsdl: 82.0
+    }
+  }
+}
+param_map {
+  key: CELL_LOAD
+  string_value: ""167""
+}
+"
+1725563242.8811162;"param_map {
+  key: GNB_ID
+  string_value: ""0""
+}
+param_map {
+  key: UE_LIST
+  ue_list {
+    connected_ues: 4
+    ue_info {
+      rnti: 1804289383
+      rsrp: -144.0
+      berul: 0.698713
+      berdl: 0.6819217
+      mcsul: 73.0
+      mcsdl: 78.0
+    }
+    ue_info {
+      rnti: 846930886
+      rsrp: -91.0
+      berul: 0.29793322
+      berdl: 0.8093707
+      mcsul: 58.0
+      mcsdl: 77.0
+    }
+    ue_info {
+      rnti: 1681692777
+      rsrp: -140.0
+      berul: 0.10145415
+      berdl: 0.1572751
+      mcsul: 60.0
+      mcsdl: 80.0
+    }
+    ue_info {
+      rnti: 1714636915
+      rsrp: -51.0
+      berul: 0.058052283
+      berdl: 0.8895532
+      mcsul: 34.0
+      mcsdl: 51.0
+    }
+  }
+}
+param_map {
+  key: CELL_LOAD
+  string_value: ""42""
+}
+"
+1725563243.3934171;"param_map {
+  key: GNB_ID
+  string_value: ""0""
+}
+param_map {
+  key: UE_LIST
+  ue_list {
+    connected_ues: 4
+    ue_info {
+      rnti: 1804289383
+      rsrp: -120.0
+      berul: 0.25696906
+      berdl: 0.5870112
+      mcsul: 48.0
+      mcsdl: 37.0
+    }
+    ue_info {
+      rnti: 846930886
+      rsrp: -47.0
+      berul: 0.815549
+      berdl: 0.92606753
+      mcsul: 54.0
+      mcsdl: 72.0
+    }
+    ue_info {
+      rnti: 1681692777
+      rsrp: -67.0
+      berul: 0.22523557
+      berdl: 0.26417187
+      mcsul: 88.0
+      mcsdl: 81.0
+    }
+    ue_info {
+      rnti: 1714636915
+      rsrp: -67.0
+      berul: 0.9315181
+      berdl: 0.34754595
+      mcsul: 41.0
+      mcsdl: 32.0
+    }
+  }
+}
+param_map {
+  key: CELL_LOAD
+  string_value: ""57""
+}
+"
+1725563243.9084556;"param_map {
+  key: GNB_ID
+  string_value: ""0""
+}
+param_map {
+  key: UE_LIST
+  ue_list {
+    connected_ues: 4
+    ue_info {
+      rnti: 1804289383
+      rsrp: -71.0
+      berul: 0.67990375
+      berdl: 0.645134
+      mcsul: 8.0
+      mcsdl: 49.0
+    }
+    ue_info {
+      rnti: 846930886
+      rsrp: -115.0
+      berul: 0.33289206
+      berdl: 0.21452399
+      mcsul: 96.0
+      mcsdl: 51.0
+    }
+    ue_info {
+      rnti: 1681692777
+      rsrp: -129.0
+      berul: 0.016177475
+      berdl: 0.8451229
+      mcsul: 77.0
+      mcsdl: 98.0
+    }
+    ue_info {
+      rnti: 1714636915
+      rsrp: -90.0
+      berul: 0.66796017
+      berdl: 0.5268302
+      mcsul: 63.0
+      mcsdl: 99.0
+    }
+  }
+}
+param_map {
+  key: CELL_LOAD
+  string_value: ""196""
+}
+"
+1725563244.4195216;"param_map {
+  key: GNB_ID
+  string_value: ""0""
+}
+param_map {
+  key: UE_LIST
+  ue_list {
+    connected_ues: 4
+    ue_info {
+      rnti: 1804289383
+      rsrp: -71.0
+      berul: 0.5143822
+      berdl: 0.8898127
+      mcsul: 3.0
+      mcsdl: 21.0
+    }
+    ue_info {
+      rnti: 846930886
+      rsrp: -60.0
+      berul: 0.9589569
+      berdl: 0.73674697
+      mcsul: 20.0
+      mcsdl: 73.0
+    }
+    ue_info {
+      rnti: 1681692777
+      rsrp: -106.0
+      berul: 0.0238632
+      berdl: 0.005076203
+      mcsul: 46.0
+      mcsdl: 13.0
+    }
+    ue_info {
+      rnti: 1714636915
+      rsrp: -46.0
+      berul: 0.8201462
+      berdl: 0.5074096
+      mcsul: 32.0
+      mcsdl: 69.0
+    }
+  }
+}
+param_map {
+  key: CELL_LOAD
+  string_value: ""39""
+}
+"
+1725563244.9388702;"param_map {
+  key: GNB_ID
+  string_value: ""0""
+}
+param_map {
+  key: UE_LIST
+  ue_list {
+    connected_ues: 4
+    ue_info {
+      rnti: 1804289383
+      rsrp: -134.0
+      berul: 0.92338073
+      berdl: 0.04339471
+      mcsul: 47.0
+      mcsdl: 15.0
+    }
+    ue_info {
+      rnti: 846930886
+      rsrp: -119.0
+      berul: 0.61124116
+      berdl: 0.092858404
+      mcsul: 33.0
+      mcsdl: 13.0
+    }
+    ue_info {
+      rnti: 1681692777
+      rsrp: -95.0
+      berul: 0.47594735
+      berdl: 0.7572818
+      mcsul: 51.0
+      mcsdl: 96.0
+    }
+    ue_info {
+      rnti: 1714636915
+      rsrp: -101.0
+      berul: 0.7364619
+      berdl: 0.7437271
+      mcsul: 49.0
+      mcsdl: 99.0
+    }
+  }
+}
+param_map {
+  key: CELL_LOAD
+  string_value: ""198""
+}
+"
+1725563245.449024;"param_map {
+  key: GNB_ID
+  string_value: ""0""
+}
+param_map {
+  key: UE_LIST
+  ue_list {
+    connected_ues: 4
+    ue_info {
+      rnti: 1804289383
+      rsrp: -90.0
+      berul: 0.10148032
+      berdl: 0.27489653
+      mcsul: 78.0
+      mcsdl: 14.0
+    }
+    ue_info {
+      rnti: 846930886
+      rsrp: -72.0
+      berul: 0.7467303
+      berdl: 0.27721366
+      mcsul: 78.0
+      mcsdl: 53.0
+    }
+    ue_info {
+      rnti: 1681692777
+      rsrp: -135.0
+      berul: 0.096681386
+      berdl: 0.9811086
+      mcsul: 36.0
+      mcsdl: 94.0
+    }
+    ue_info {
+      rnti: 1714636915
+      rsrp: -97.0
+      berul: 0.45651418
+      berdl: 0.43439808
+      mcsul: 86.0
+      mcsdl: 75.0
+    }
+  }
+}
+param_map {
+  key: CELL_LOAD
+  string_value: ""108""
+}
+"
+1725563245.9657066;"param_map {
+  key: GNB_ID
+  string_value: ""0""
+}
+param_map {
+  key: UE_LIST
+  ue_list {
+    connected_ues: 4
+    ue_info {
+      rnti: 1804289383
+      rsrp: -75.0
+      berul: 0.08126503
+      berdl: 0.37799716
+      mcsul: 58.0
+      mcsdl: 5.0
+    }
+    ue_info {
+      rnti: 846930886
+      rsrp: -90.0
+      berul: 0.8806832
+      berdl: 0.5824496
+      mcsul: 4.0
+      mcsdl: 58.0
+    }
+    ue_info {
+      rnti: 1681692777
+      rsrp: -141.0
+      berul: 0.31234348
+      berdl: 0.9432221
+      mcsul: 49.0
+      mcsdl: 3.0
+    }
+    ue_info {
+      rnti: 1714636915
+      rsrp: -58.0
+      berul: 0.514936
+      berdl: 0.3992999
+      mcsul: 89.0
+      mcsdl: 32.0
+    }
+  }
+}
+param_map {
+  key: CELL_LOAD
+  string_value: ""105""
+}
+"
+1725563246.4764996;"param_map {
+  key: GNB_ID
+  string_value: ""0""
+}
+param_map {
+  key: UE_LIST
+  ue_list {
+    connected_ues: 4
+    ue_info {
+      rnti: 1804289383
+      rsrp: -115.0
+      berul: 0.4337584
+      berdl: 0.0054348903
+      mcsul: 64.0
+      mcsdl: 53.0
+    }
+    ue_info {
+      rnti: 846930886
+      rsrp: -51.0
+      berul: 0.08418465
+      berdl: 0.7802505
+      mcsul: 14.0
+      mcsdl: 14.0
+    }
+    ue_info {
+      rnti: 1681692777
+      rsrp: -45.0
+      berul: 0.86719733
+      berdl: 0.06267395
+      mcsul: 12.0
+      mcsdl: 43.0
+    }
+    ue_info {
+      rnti: 1714636915
+      rsrp: -84.0
+      berul: 0.9278658
+      berdl: 0.109524585
+      mcsul: 47.0
+      mcsdl: 32.0
+    }
+  }
+}
+param_map {
+  key: CELL_LOAD
+  string_value: ""93""
+}
+"
+1725563246.986128;"param_map {
+  key: GNB_ID
+  string_value: ""0""
+}
+param_map {
+  key: UE_LIST
+  ue_list {
+    connected_ues: 4
+    ue_info {
+      rnti: 1804289383
+      rsrp: -131.0
+      berul: 0.5394134
+      berdl: 0.40661505
+      mcsul: 80.0
+      mcsdl: 46.0
+    }
+    ue_info {
+      rnti: 846930886
+      rsrp: -49.0
+      berul: 0.22172576
+      berdl: 0.7892437
+      mcsul: 82.0
+      mcsdl: 72.0
+    }
+    ue_info {
+      rnti: 1681692777
+      rsrp: -94.0
+      berul: 0.80795926
+      berdl: 0.38732255
+      mcsul: 21.0
+      mcsdl: 31.0
+    }
+    ue_info {
+      rnti: 1714636915
+      rsrp: -142.0
+      berul: 0.8314618
+      berdl: 0.71443164
+      mcsul: 7.0
+      mcsdl: 27.0
+    }
+  }
+}
+param_map {
+  key: CELL_LOAD
+  string_value: ""81""
+}
+"
+1725563247.503248;"param_map {
+  key: GNB_ID
+  string_value: ""0""
+}
+param_map {
+  key: UE_LIST
+  ue_list {
+    connected_ues: 4
+    ue_info {
+      rnti: 1804289383
+      rsrp: -87.0
+      berul: 0.57881254
+      berdl: 0.6718408
+      mcsul: 41.0
+      mcsdl: 14.0
+    }
+    ue_info {
+      rnti: 846930886
+      rsrp: -54.0
+      berul: 0.1390008
+      berdl: 0.14394163
+      mcsul: 44.0
+      mcsdl: 13.0
+    }
+    ue_info {
+      rnti: 1681692777
+      rsrp: -110.0
+      berul: 0.73531127
+      berdl: 0.18402529
+      mcsul: 26.0
+      mcsdl: 75.0
+    }
+    ue_info {
+      rnti: 1714636915
+      rsrp: -141.0
+      berul: 0.88843286
+      berdl: 0.10223327
+      mcsul: 72.0
+      mcsdl: 81.0
+    }
+  }
+}
+param_map {
+  key: CELL_LOAD
+  string_value: ""210""
+}
+"
+1725563248.014832;"param_map {
+  key: GNB_ID
+  string_value: ""0""
+}
+param_map {
+  key: UE_LIST
+  ue_list {
+    connected_ues: 4
+    ue_info {
+      rnti: 1804289383
+      rsrp: -143.0
+      berul: 0.657643
+      berdl: 0.947001
+      mcsul: 88.0
+      mcsdl: 73.0
+    }
+    ue_info {
+      rnti: 846930886
+      rsrp: -93.0
+      berul: 0.9363492
+      berdl: 0.14211857
+      mcsul: 33.0
+      mcsdl: 37.0
+    }
+    ue_info {
+      rnti: 1681692777
+      rsrp: -45.0
+      berul: 0.8734138
+      berdl: 0.23284812
+      mcsul: 15.0
+      mcsdl: 66.0
+    }
+    ue_info {
+      rnti: 1714636915
+      rsrp: -114.0
+      berul: 0.81299686
+      berdl: 0.77330095
+      mcsul: 29.0
+      mcsdl: 19.0
+    }
+  }
+}
+param_map {
+  key: CELL_LOAD
+  string_value: ""143""
+}
+"
+1725563248.530987;"param_map {
+  key: GNB_ID
+  string_value: ""0""
+}
+param_map {
+  key: UE_LIST
+  ue_list {
+    connected_ues: 4
+    ue_info {
+      rnti: 1804289383
+      rsrp: -71.0
+      berul: 0.7744324
+      berdl: 0.28428927
+      mcsul: 32.0
+      mcsdl: 47.0
+    }
+    ue_info {
+      rnti: 846930886
+      rsrp: -44.0
+      berul: 0.17898664
+      berdl: 0.35978585
+      mcsul: 90.0
+      mcsdl: 13.0
+    }
+    ue_info {
+      rnti: 1681692777
+      rsrp: -125.0
+      berul: 0.10068568
+      berdl: 0.32571146
+      mcsul: 63.0
+      mcsdl: 96.0
+    }
+    ue_info {
+      rnti: 1714636915
+      rsrp: -121.0
+      berul: 0.805789
+      berdl: 0.7497189
+      mcsul: 42.0
+      mcsdl: 17.0
+    }
+  }
+}
+param_map {
+  key: CELL_LOAD
+  string_value: ""77""
+}
+"
+1725563249.0440006;"param_map {
+  key: GNB_ID
+  string_value: ""0""
+}
+param_map {
+  key: UE_LIST
+  ue_list {
+    connected_ues: 4
+    ue_info {
+      rnti: 1804289383
+      rsrp: -68.0
+      berul: 0.5996444
+      berdl: 0.068234816
+      mcsul: 59.0
+      mcsdl: 73.0
+    }
+    ue_info {
+      rnti: 846930886
+      rsrp: -46.0
+      berul: 0.67484957
+      berdl: 0.46065167
+      mcsul: 47.0
+      mcsdl: 66.0
+    }
+    ue_info {
+      rnti: 1681692777
+      rsrp: -51.0
+      berul: 0.2460712
+      berdl: 0.576721
+      mcsul: 86.0
+      mcsdl: 57.0
+    }
+    ue_info {
+      rnti: 1714636915
+      rsrp: -54.0
+      berul: 0.4801555
+      berdl: 0.48586577
+      mcsul: 22.0
+      mcsdl: 88.0
+    }
+  }
+}
+param_map {
+  key: CELL_LOAD
+  string_value: ""190""
+}
+"
+1725563249.560876;"param_map {
+  key: GNB_ID
+  string_value: ""0""
+}
+param_map {
+  key: UE_LIST
+  ue_list {
+    connected_ues: 4
+    ue_info {
+      rnti: 1804289383
+      rsrp: -122.0
+      berul: 0.18457744
+      berdl: 0.0028277938
+      mcsul: 40.0
+      mcsdl: 55.0
+    }
+    ue_info {
+      rnti: 846930886
+      rsrp: -59.0
+      berul: 0.6504907
+      berdl: 0.6875271
+      mcsul: 67.0
+      mcsdl: 30.0
+    }
+    ue_info {
+      rnti: 1681692777
+      rsrp: -115.0
+      berul: 0.77505755
+      berdl: 0.11296429
+      mcsul: 99.0
+      mcsdl: 81.0
+    }
+    ue_info {
+      rnti: 1714636915
+      rsrp: -130.0
+      berul: 0.5361146
+      berdl: 0.6679083
+      mcsul: 24.0
+      mcsdl: 9.0
+    }
+  }
+}
+param_map {
+  key: CELL_LOAD
+  string_value: ""210""
+}
+"
+1725563250.071038;"param_map {
+  key: GNB_ID
+  string_value: ""0""
+}
+param_map {
+  key: UE_LIST
+  ue_list {
+    connected_ues: 4
+    ue_info {
+      rnti: 1804289383
+      rsrp: -92.0
+      berul: 0.40526736
+      berdl: 0.19349267
+      mcsul: 34.0
+      mcsdl: 58.0
+    }
+    ue_info {
+      rnti: 846930886
+      rsrp: -105.0
+      berul: 0.32385164
+      berdl: 0.3471963
+      mcsul: 92.0
+      mcsdl: 70.0
+    }
+    ue_info {
+      rnti: 1681692777
+      rsrp: -142.0
+      berul: 0.71709156
+      berdl: 0.46006745
+      mcsul: 14.0
+      mcsdl: 46.0
+    }
+    ue_info {
+      rnti: 1714636915
+      rsrp: -108.0
+      berul: 0.1916303
+      berdl: 0.6933703
+      mcsul: 60.0
+      mcsdl: 15.0
+    }
+  }
+}
+param_map {
+  key: CELL_LOAD
+  string_value: ""100""
+}
+"
+1725563250.579187;"param_map {
+  key: GNB_ID
+  string_value: ""0""
+}
+param_map {
+  key: UE_LIST
+  ue_list {
+    connected_ues: 4
+    ue_info {
+      rnti: 1804289383
+      rsrp: -67.0
+      berul: 0.34932408
+      berdl: 0.51435167
+      mcsul: 49.0
+      mcsdl: 41.0
+    }
+    ue_info {
+      rnti: 846930886
+      rsrp: -102.0
+      berul: 0.09431988
+      berdl: 0.8093548
+      mcsul: 35.0
+      mcsdl: 16.0
+    }
+    ue_info {
+      rnti: 1681692777
+      rsrp: -101.0
+      berul: 0.28427994
+      berdl: 0.18013634
+      mcsul: 81.0
+      mcsdl: 73.0
+    }
+    ue_info {
+      rnti: 1714636915
+      rsrp: -58.0
+      berul: 0.6830983
+      berdl: 0.78618675
+      mcsul: 40.0
+      mcsdl: 20.0
+    }
+  }
+}
+param_map {
+  key: CELL_LOAD
+  string_value: ""143""
+}
+"
+1725563251.0960035;"param_map {
+  key: GNB_ID
+  string_value: ""0""
+}
+param_map {
+  key: UE_LIST
+  ue_list {
+    connected_ues: 4
+    ue_info {
+      rnti: 1804289383
+      rsrp: -67.0
+      berul: 0.60040545
+      berdl: 0.9676941
+      mcsul: 74.0
+      mcsdl: 53.0
+    }
+    ue_info {
+      rnti: 846930886
+      rsrp: -44.0
+      berul: 0.8026037
+      berdl: 0.313187
+      mcsul: 87.0
+      mcsdl: 44.0
+    }
+    ue_info {
+      rnti: 1681692777
+      rsrp: -88.0
+      berul: 0.7450083
+      berdl: 0.9700421
+      mcsul: 80.0
+      mcsdl: 44.0
+    }
+    ue_info {
+      rnti: 1714636915
+      rsrp: -143.0
+      berul: 0.05307333
+      berdl: 0.8978831
+      mcsul: 89.0
+      mcsdl: 85.0
+    }
+  }
+}
+param_map {
+  key: CELL_LOAD
+  string_value: ""255""
+}
+"
+1725563251.6068664;"param_map {
+  key: GNB_ID
+  string_value: ""0""
+}
+param_map {
+  key: UE_LIST
+  ue_list {
+    connected_ues: 4
+    ue_info {
+      rnti: 1804289383
+      rsrp: -95.0
+      berul: 0.21985336
+      berdl: 0.7783906
+      mcsul: 31.0
+      mcsdl: 73.0
+    }
+    ue_info {
+      rnti: 846930886
+      rsrp: -144.0
+      berul: 0.40897804
+      berdl: 0.4599365
+      mcsul: 97.0
+      mcsdl: 55.0
+    }
+    ue_info {
+      rnti: 1681692777
+      rsrp: -140.0
+      berul: 0.20223233
+      berdl: 0.8032267
+      mcsul: 13.0
+      mcsdl: 19.0
+    }
+    ue_info {
+      rnti: 1714636915
+      rsrp: -137.0
+      berul: 0.47516388
+      berdl: 0.384509
+      mcsul: 58.0
+      mcsdl: 19.0
+    }
+  }
+}
+param_map {
+  key: CELL_LOAD
+  string_value: ""234""
+}
+"
+1725563252.1187942;"param_map {
+  key: GNB_ID
+  string_value: ""0""
+}
+param_map {
+  key: UE_LIST
+  ue_list {
+    connected_ues: 4
+    ue_info {
+      rnti: 1804289383
+      rsrp: -144.0
+      berul: 0.9008964
+      berdl: 0.87560433
+      mcsul: 4.0
+      mcsdl: 100.0
+    }
+    ue_info {
+      rnti: 846930886
+      rsrp: -52.0
+      berul: 0.08965499
+      berdl: 0.82092565
+      mcsul: 49.0
+      mcsdl: 12.0
+    }
+    ue_info {
+      rnti: 1681692777
+      rsrp: -57.0
+      berul: 0.18824805
+      berdl: 0.28718945
+      mcsul: 85.0
+      mcsdl: 100.0
+    }
+    ue_info {
+      rnti: 1714636915
+      rsrp: -133.0
+      berul: 0.036495876
+      berdl: 0.72182244
+      mcsul: 28.0
+      mcsdl: 26.0
+    }
+  }
+}
+param_map {
+  key: CELL_LOAD
+  string_value: ""26""
+}
+"
+1725563252.6357126;"param_map {
+  key: GNB_ID
+  string_value: ""0""
+}
+param_map {
+  key: UE_LIST
+  ue_list {
+    connected_ues: 4
+    ue_info {
+      rnti: 1804289383
+      rsrp: -68.0
+      berul: 0.6752551
+      berdl: 0.9577094
+      mcsul: 54.0
+      mcsdl: 91.0
+    }
+    ue_info {
+      rnti: 846930886
+      rsrp: -57.0
+      berul: 0.008568615
+      berdl: 0.99604154
+      mcsul: 18.0
+      mcsdl: 7.0
+    }
+    ue_info {
+      rnti: 1681692777
+      rsrp: -94.0
+      berul: 0.26462382
+      berdl: 0.8010239
+      mcsul: 63.0
+      mcsdl: 70.0
+    }
+    ue_info {
+      rnti: 1714636915
+      rsrp: -54.0
+      berul: 0.38071197
+      berdl: 0.006954181
+      mcsul: 30.0
+      mcsdl: 31.0
+    }
+  }
+}
+param_map {
+  key: CELL_LOAD
+  string_value: ""44""
+}
+"
+1725563253.145779;"param_map {
+  key: GNB_ID
+  string_value: ""0""
+}
+param_map {
+  key: UE_LIST
+  ue_list {
+    connected_ues: 4
+    ue_info {
+      rnti: 1804289383
+      rsrp: -55.0
+      berul: 0.17670034
+      berdl: 0.63919854
+      mcsul: 13.0
+      mcsdl: 55.0
+    }
+    ue_info {
+      rnti: 846930886
+      rsrp: -44.0
+      berul: 0.8700527
+      berdl: 0.27588397
+      mcsul: 55.0
+      mcsdl: 78.0
+    }
+    ue_info {
+      rnti: 1681692777
+      rsrp: -53.0
+      berul: 0.22297797
+      berdl: 0.11291121
+      mcsul: 78.0
+      mcsdl: 20.0
+    }
+    ue_info {
+      rnti: 1714636915
+      rsrp: -92.0
+      berul: 0.46124977
+      berdl: 0.85682577
+      mcsul: 7.0
+      mcsdl: 28.0
+    }
+  }
+}
+param_map {
+  key: CELL_LOAD
+  string_value: ""255""
+}
+"
+1725563253.6598604;"param_map {
+  key: GNB_ID
+  string_value: ""0""
+}
+param_map {
+  key: UE_LIST
+  ue_list {
+    connected_ues: 4
+    ue_info {
+      rnti: 1804289383
+      rsrp: -99.0
+      berul: 0.18769316
+      berdl: 0.24716787
+      mcsul: 45.0
+      mcsdl: 17.0
+    }
+    ue_info {
+      rnti: 846930886
+      rsrp: -57.0
+      berul: 0.36711848
+      berdl: 0.61549103
+      mcsul: 100.0
+      mcsdl: 31.0
+    }
+    ue_info {
+      rnti: 1681692777
+      rsrp: -88.0
+      berul: 0.6940911
+      berdl: 0.017997678
+      mcsul: 21.0
+      mcsdl: 88.0
+    }
+    ue_info {
+      rnti: 1714636915
+      rsrp: -92.0
+      berul: 0.5201183
+      berdl: 0.89535373
+      mcsul: 72.0
+      mcsdl: 72.0
+    }
+  }
+}
+param_map {
+  key: CELL_LOAD
+  string_value: ""250""
+}
+"
+1725563254.1729114;"param_map {
+  key: GNB_ID
+  string_value: ""0""
+}
+param_map {
+  key: UE_LIST
+  ue_list {
+    connected_ues: 4
+    ue_info {
+      rnti: 1804289383
+      rsrp: -48.0
+      berul: 0.7882314
+      berdl: 0.17665642
+      mcsul: 73.0
+      mcsdl: 61.0
+    }
+    ue_info {
+      rnti: 846930886
+      rsrp: -87.0
+      berul: 0.18200286
+      berdl: 0.24352768
+      mcsul: 27.0
+      mcsdl: 81.0
+    }
+    ue_info {
+      rnti: 1681692777
+      rsrp: -88.0
+      berul: 0.21226867
+      berdl: 0.3852816
+      mcsul: 38.0
+      mcsdl: 85.0
+    }
+    ue_info {
+      rnti: 1714636915
+      rsrp: -132.0
+      berul: 0.14494619
+      berdl: 0.7451544
+      mcsul: 47.0
+      mcsdl: 31.0
+    }
+  }
+}
+param_map {
+  key: CELL_LOAD
+  string_value: ""124""
+}
+"
+1725563254.6816661;"param_map {
+  key: GNB_ID
+  string_value: ""0""
+}
+param_map {
+  key: UE_LIST
+  ue_list {
+    connected_ues: 4
+    ue_info {
+      rnti: 1804289383
+      rsrp: -50.0
+      berul: 0.54174304
+      berdl: 0.8970553
+      mcsul: 67.0
+      mcsdl: 37.0
+    }
+    ue_info {
+      rnti: 846930886
+      rsrp: -90.0
+      berul: 0.7394667
+      berdl: 0.47685
+      mcsul: 40.0
+      mcsdl: 43.0
+    }
+    ue_info {
+      rnti: 1681692777
+      rsrp: -44.0
+      berul: 0.8807251
+      berdl: 0.64009845
+      mcsul: 34.0
+      mcsdl: 70.0
+    }
+    ue_info {
+      rnti: 1714636915
+      rsrp: -81.0
+      berul: 0.44842285
+      berdl: 0.45826855
+      mcsul: 44.0
+      mcsdl: 59.0
+    }
+  }
+}
+param_map {
+  key: CELL_LOAD
+  string_value: ""173""
+}
+"
+1725563255.19647;"param_map {
+  key: GNB_ID
+  string_value: ""0""
+}
+param_map {
+  key: UE_LIST
+  ue_list {
+    connected_ues: 4
+    ue_info {
+      rnti: 1804289383
+      rsrp: -110.0
+      berul: 0.97181815
+      berdl: 0.6537597
+      mcsul: 42.0
+      mcsdl: 80.0
+    }
+    ue_info {
+      rnti: 846930886
+      rsrp: -118.0
+      berul: 0.38966662
+      berdl: 0.51553184
+      mcsul: 56.0
+      mcsdl: 24.0
+    }
+    ue_info {
+      rnti: 1681692777
+      rsrp: -82.0
+      berul: 0.8641943
+      berdl: 0.5337117
+      mcsul: 81.0
+      mcsdl: 63.0
+    }
+    ue_info {
+      rnti: 1714636915
+      rsrp: -87.0
+      berul: 0.32375485
+      berdl: 0.5764794
+      mcsul: 49.0
+      mcsdl: 20.0
+    }
+  }
+}
+param_map {
+  key: CELL_LOAD
+  string_value: ""246""
+}
+"
+1725563255.705444;"param_map {
+  key: GNB_ID
+  string_value: ""0""
+}
+param_map {
+  key: UE_LIST
+  ue_list {
+    connected_ues: 4
+    ue_info {
+      rnti: 1804289383
+      rsrp: -78.0
+      berul: 0.4272953
+      berdl: 0.7841422
+      mcsul: 28.0
+      mcsdl: 11.0
+    }
+    ue_info {
+      rnti: 846930886
+      rsrp: -45.0
+      berul: 0.5971135
+      berdl: 0.007880084
+      mcsul: 50.0
+      mcsdl: 51.0
+    }
+    ue_info {
+      rnti: 1681692777
+      rsrp: -113.0
+      berul: 0.7909198
+      berdl: 0.1268052
+      mcsul: 58.0
+      mcsdl: 72.0
+    }
+    ue_info {
+      rnti: 1714636915
+      rsrp: -44.0
+      berul: 0.5569077
+      berdl: 0.29143128
+      mcsul: 58.0
+      mcsdl: 13.0
+    }
+  }
+}
+param_map {
+  key: CELL_LOAD
+  string_value: ""225""
+}
+"
+1725563256.2143896;"param_map {
+  key: GNB_ID
+  string_value: ""0""
+}
+param_map {
+  key: UE_LIST
+  ue_list {
+    connected_ues: 4
+    ue_info {
+      rnti: 1804289383
+      rsrp: -135.0
+      berul: 0.7272757
+      berdl: 0.61589444
+      mcsul: 46.0
+      mcsdl: 62.0
+    }
+    ue_info {
+      rnti: 846930886
+      rsrp: -139.0
+      berul: 0.7882652
+      berdl: 0.72154
+      mcsul: 49.0
+      mcsdl: 93.0
+    }
+    ue_info {
+      rnti: 1681692777
+      rsrp: -60.0
+      berul: 0.15414146
+      berdl: 0.0901297
+      mcsul: 91.0
+      mcsdl: 4.0
+    }
+    ue_info {
+      rnti: 1714636915
+      rsrp: -51.0
+      berul: 0.38160256
+      berdl: 0.8673215
+      mcsul: 3.0
+      mcsdl: 10.0
+    }
+  }
+}
+param_map {
+  key: CELL_LOAD
+  string_value: ""243""
+}
+"
+1725563256.7289574;"param_map {
+  key: GNB_ID
+  string_value: ""0""
+}
+param_map {
+  key: UE_LIST
+  ue_list {
+    connected_ues: 4
+    ue_info {
+      rnti: 1804289383
+      rsrp: -67.0
+      berul: 0.98145324
+      berdl: 0.55729145
+      mcsul: 64.0
+      mcsdl: 86.0
+    }
+    ue_info {
+      rnti: 846930886
+      rsrp: -70.0
+      berul: 4.6877656e-05
+      berdl: 0.15492666
+      mcsul: 80.0
+      mcsdl: 45.0
+    }
+    ue_info {
+      rnti: 1681692777
+      rsrp: -101.0
+      berul: 0.035038944
+      berdl: 0.6475477
+      mcsul: 25.0
+      mcsdl: 48.0
+    }
+    ue_info {
+      rnti: 1714636915
+      rsrp: -96.0
+      berul: 0.26713437
+      berdl: 0.43473995
+      mcsul: 76.0
+      mcsdl: 82.0
+    }
+  }
+}
+param_map {
+  key: CELL_LOAD
+  string_value: ""151""
+}
+"
+1725563257.2475882;"param_map {
+  key: GNB_ID
+  string_value: ""0""
+}
+param_map {
+  key: UE_LIST
+  ue_list {
+    connected_ues: 4
+    ue_info {
+      rnti: 1804289383
+      rsrp: -119.0
+      berul: 0.6632516
+      berdl: 0.8648731
+      mcsul: 27.0
+      mcsdl: 84.0
+    }
+    ue_info {
+      rnti: 846930886
+      rsrp: -69.0
+      berul: 0.19494751
+      berdl: 0.12774271
+      mcsul: 97.0
+      mcsdl: 13.0
+    }
+    ue_info {
+      rnti: 1681692777
+      rsrp: -102.0
+      berul: 0.082576975
+      berdl: 0.14228934
+      mcsul: 93.0
+      mcsdl: 22.0
+    }
+    ue_info {
+      rnti: 1714636915
+      rsrp: -130.0
+      berul: 0.76912135
+      berdl: 0.14446796
+      mcsul: 95.0
+      mcsdl: 60.0
+    }
+  }
+}
+param_map {
+  key: CELL_LOAD
+  string_value: ""170""
+}
+"
+1725563257.7611496;"param_map {
+  key: GNB_ID
+  string_value: ""0""
+}
+param_map {
+  key: UE_LIST
+  ue_list {
+    connected_ues: 4
+    ue_info {
+      rnti: 1804289383
+      rsrp: -45.0
+      berul: 0.4483223
+      berdl: 0.8904203
+      mcsul: 83.0
+      mcsdl: 84.0
+    }
+    ue_info {
+      rnti: 846930886
+      rsrp: -75.0
+      berul: 0.7472306
+      berdl: 0.34956247
+      mcsul: 96.0
+      mcsdl: 23.0
+    }
+    ue_info {
+      rnti: 1681692777
+      rsrp: -111.0
+      berul: 0.3939281
+      berdl: 0.6924877
+      mcsul: 7.0
+      mcsdl: 76.0
+    }
+    ue_info {
+      rnti: 1714636915
+      rsrp: -142.0
+      berul: 0.34032062
+      berdl: 0.5076171
+      mcsul: 82.0
+      mcsdl: 5.0
+    }
+  }
+}
+param_map {
+  key: CELL_LOAD
+  string_value: ""191""
+}
+"
+1725563258.268481;"param_map {
+  key: GNB_ID
+  string_value: ""0""
+}
+param_map {
+  key: UE_LIST
+  ue_list {
+    connected_ues: 4
+    ue_info {
+      rnti: 1804289383
+      rsrp: -52.0
+      berul: 0.06760783
+      berdl: 0.33715048
+      mcsul: 91.0
+      mcsdl: 21.0
+    }
+    ue_info {
+      rnti: 846930886
+      rsrp: -139.0
+      berul: 0.2566733
+      berdl: 0.8883481
+      mcsul: 21.0
+      mcsdl: 12.0
+    }
+    ue_info {
+      rnti: 1681692777
+      rsrp: -59.0
+      berul: 0.35536873
+      berdl: 0.5586448
+      mcsul: 32.0
+      mcsdl: 15.0
+    }
+    ue_info {
+      rnti: 1714636915
+      rsrp: -110.0
+      berul: 0.54735994
+      berdl: 0.7404505
+      mcsul: 4.0
+      mcsdl: 54.0
+    }
+  }
+}
+param_map {
+  key: CELL_LOAD
+  string_value: ""44""
+}
+"
+1725563258.7791817;"param_map {
+  key: GNB_ID
+  string_value: ""0""
+}
+param_map {
+  key: UE_LIST
+  ue_list {
+    connected_ues: 4
+    ue_info {
+      rnti: 1804289383
+      rsrp: -78.0
+      berul: 0.06746226
+      berdl: 0.70357066
+      mcsul: 69.0
+      mcsdl: 89.0
+    }
+    ue_info {
+      rnti: 846930886
+      rsrp: -131.0
+      berul: 0.7282957
+      berdl: 0.04651267
+      mcsul: 5.0
+      mcsdl: 78.0
+    }
+    ue_info {
+      rnti: 1681692777
+      rsrp: -86.0
+      berul: 0.036817595
+      berdl: 0.63352215
+      mcsul: 77.0
+      mcsdl: 81.0
+    }
+    ue_info {
+      rnti: 1714636915
+      rsrp: -53.0
+      berul: 0.53805536
+      berdl: 0.24926203
+      mcsul: 3.0
+      mcsdl: 4.0
+    }
+  }
+}
+param_map {
+  key: CELL_LOAD
+  string_value: ""77""
+}
+"
+1725563259.298354;"param_map {
+  key: GNB_ID
+  string_value: ""0""
+}
+param_map {
+  key: UE_LIST
+  ue_list {
+    connected_ues: 4
+    ue_info {
+      rnti: 1804289383
+      rsrp: -135.0
+      berul: 0.76492465
+      berdl: 0.5370302
+      mcsul: 98.0
+      mcsdl: 45.0
+    }
+    ue_info {
+      rnti: 846930886
+      rsrp: -136.0
+      berul: 0.13354775
+      berdl: 0.92800015
+      mcsul: 68.0
+      mcsdl: 73.0
+    }
+    ue_info {
+      rnti: 1681692777
+      rsrp: -135.0
+      berul: 0.526827
+      berdl: 0.395316
+      mcsul: 9.0
+      mcsdl: 60.0
+    }
+    ue_info {
+      rnti: 1714636915
+      rsrp: -120.0
+      berul: 0.7177785
+      berdl: 0.57976526
+      mcsul: 41.0
+      mcsdl: 75.0
+    }
+  }
+}
+param_map {
+  key: CELL_LOAD
+  string_value: ""50""
+}
+"
+1725563259.8102689;"param_map {
+  key: GNB_ID
+  string_value: ""0""
+}
+param_map {
+  key: UE_LIST
+  ue_list {
+    connected_ues: 4
+    ue_info {
+      rnti: 1804289383
+      rsrp: -128.0
+      berul: 0.6476723
+      berdl: 0.030324029
+      mcsul: 81.0
+      mcsdl: 24.0
+    }
+    ue_info {
+      rnti: 846930886
+      rsrp: -112.0
+      berul: 0.055410642
+      berdl: 0.03430682
+      mcsul: 82.0
+      mcsdl: 82.0
+    }
+    ue_info {
+      rnti: 1681692777
+      rsrp: -136.0
+      berul: 0.5395839
+      berdl: 0.32934165
+      mcsul: 61.0
+      mcsdl: 73.0
+    }
+    ue_info {
+      rnti: 1714636915
+      rsrp: -129.0
+      berul: 0.5631611
+      berdl: 0.9487082
+      mcsul: 99.0
+      mcsdl: 11.0
+    }
+  }
+}
+param_map {
+  key: CELL_LOAD
+  string_value: ""103""
+}
+"
+1725563260.3199303;"param_map {
+  key: GNB_ID
+  string_value: ""0""
+}
+param_map {
+  key: UE_LIST
+  ue_list {
+    connected_ues: 4
+    ue_info {
+      rnti: 1804289383
+      rsrp: -78.0
+      berul: 0.6502224
+      berdl: 0.70699525
+      mcsul: 82.0
+      mcsdl: 27.0
+    }
+    ue_info {
+      rnti: 846930886
+      rsrp: -64.0
+      berul: 0.5129414
+      berdl: 0.49784678
+      mcsul: 43.0
+      mcsdl: 34.0
+    }
+    ue_info {
+      rnti: 1681692777
+      rsrp: -135.0
+      berul: 0.08659621
+      berdl: 0.29220742
+      mcsul: 100.0
+      mcsdl: 59.0
+    }
+    ue_info {
+      rnti: 1714636915
+      rsrp: -70.0
+      berul: 0.8046407
+      berdl: 0.5083694
+      mcsul: 91.0
+      mcsdl: 21.0
+    }
+  }
+}
+param_map {
+  key: CELL_LOAD
+  string_value: ""48""
+}
+"
+1725563260.8331127;"param_map {
+  key: GNB_ID
+  string_value: ""0""
+}
+param_map {
+  key: UE_LIST
+  ue_list {
+    connected_ues: 4
+    ue_info {
+      rnti: 1804289383
+      rsrp: -55.0
+      berul: 0.9262938
+      berdl: 0.97449875
+      mcsul: 91.0
+      mcsdl: 25.0
+    }
+    ue_info {
+      rnti: 846930886
+      rsrp: -116.0
+      berul: 0.14424627
+      berdl: 0.2131222
+      mcsul: 4.0
+      mcsdl: 72.0
+    }
+    ue_info {
+      rnti: 1681692777
+      rsrp: -69.0
+      berul: 0.4427886
+      berdl: 0.56875396
+      mcsul: 37.0
+      mcsdl: 71.0
+    }
+    ue_info {
+      rnti: 1714636915
+      rsrp: -68.0
+      berul: 0.059163313
+      berdl: 0.030065117
+      mcsul: 62.0
+      mcsdl: 87.0
+    }
+  }
+}
+param_map {
+  key: CELL_LOAD
+  string_value: ""271""
+}
+"
+1725563261.3458958;"param_map {
+  key: GNB_ID
+  string_value: ""0""
+}
+param_map {
+  key: UE_LIST
+  ue_list {
+    connected_ues: 4
+    ue_info {
+      rnti: 1804289383
+      rsrp: -143.0
+      berul: 0.61325413
+      berdl: 0.72237664
+      mcsul: 55.0
+      mcsdl: 72.0
+    }
+    ue_info {
+      rnti: 846930886
+      rsrp: -68.0
+      berul: 0.50147974
+      berdl: 0.109087
+      mcsul: 20.0
+      mcsdl: 95.0
+    }
+    ue_info {
+      rnti: 1681692777
+      rsrp: -71.0
+      berul: 0.050263274
+      berdl: 0.020863917
+      mcsul: 26.0
+      mcsdl: 34.0
+    }
+    ue_info {
+      rnti: 1714636915
+      rsrp: -122.0
+      berul: 0.62370133
+      berdl: 0.60341114
+      mcsul: 56.0
+      mcsdl: 14.0
+    }
+  }
+}
+param_map {
+  key: CELL_LOAD
+  string_value: ""169""
+}
+"
+1725563261.8565671;"param_map {
+  key: GNB_ID
+  string_value: ""0""
+}
+param_map {
+  key: UE_LIST
+  ue_list {
+    connected_ues: 4
+    ue_info {
+      rnti: 1804289383
+      rsrp: -52.0
+      berul: 0.05421404
+      berdl: 0.76267874
+      mcsul: 26.0
+      mcsdl: 84.0
+    }
+    ue_info {
+      rnti: 846930886
+      rsrp: -100.0
+      berul: 0.35616195
+      berdl: 0.48019338
+      mcsul: 93.0
+      mcsdl: 23.0
+    }
+    ue_info {
+      rnti: 1681692777
+      rsrp: -62.0
+      berul: 0.7561429
+      berdl: 0.05168515
+      mcsul: 49.0
+      mcsdl: 80.0
+    }
+    ue_info {
+      rnti: 1714636915
+      rsrp: -46.0
+      berul: 0.49383134
+      berdl: 0.3390708
+      mcsul: 46.0
+      mcsdl: 40.0
+    }
+  }
+}
+param_map {
+  key: CELL_LOAD
+  string_value: ""262""
+}
+"
+1725563262.37001;"param_map {
+  key: GNB_ID
+  string_value: ""0""
+}
+param_map {
+  key: UE_LIST
+  ue_list {
+    connected_ues: 4
+    ue_info {
+      rnti: 1804289383
+      rsrp: -141.0
+      berul: 0.5610604
+      berdl: 0.10244289
+      mcsul: 43.0
+      mcsdl: 97.0
+    }
+    ue_info {
+      rnti: 846930886
+      rsrp: -63.0
+      berul: 0.74663526
+      berdl: 0.47067404
+      mcsul: 61.0
+      mcsdl: 14.0
+    }
+    ue_info {
+      rnti: 1681692777
+      rsrp: -144.0
+      berul: 0.26581833
+      berdl: 0.7257709
+      mcsul: 31.0
+      mcsdl: 8.0
+    }
+    ue_info {
+      rnti: 1714636915
+      rsrp: -57.0
+      berul: 0.9468114
+      berdl: 0.79375345
+      mcsul: 64.0
+      mcsdl: 19.0
+    }
+  }
+}
+param_map {
+  key: CELL_LOAD
+  string_value: ""107""
+}
+"
+1725563262.878613;"param_map {
+  key: GNB_ID
+  string_value: ""0""
+}
+param_map {
+  key: UE_LIST
+  ue_list {
+    connected_ues: 4
+    ue_info {
+      rnti: 1804289383
+      rsrp: -126.0
+      berul: 0.32780504
+      berdl: 0.7853462
+      mcsul: 51.0
+      mcsdl: 28.0
+    }
+    ue_info {
+      rnti: 846930886
+      rsrp: -66.0
+      berul: 0.01569924
+      berdl: 0.60917944
+      mcsul: 83.0
+      mcsdl: 30.0
+    }
+    ue_info {
+      rnti: 1681692777
+      rsrp: -110.0
+      berul: 0.38043445
+      berdl: 0.74112993
+      mcsul: 76.0
+      mcsdl: 78.0
+    }
+    ue_info {
+      rnti: 1714636915
+      rsrp: -94.0
+      berul: 0.25197405
+      berdl: 0.97069263
+      mcsul: 44.0
+      mcsdl: 47.0
+    }
+  }
+}
+param_map {
+  key: CELL_LOAD
+  string_value: ""53""
+}
+"
+1725563263.3859334;"param_map {
+  key: GNB_ID
+  string_value: ""0""
+}
+param_map {
+  key: UE_LIST
+  ue_list {
+    connected_ues: 4
+    ue_info {
+      rnti: 1804289383
+      rsrp: -96.0
+      berul: 0.940837
+      berdl: 0.8258946
+      mcsul: 27.0
+      mcsdl: 36.0
+    }
+    ue_info {
+      rnti: 846930886
+      rsrp: -54.0
+      berul: 0.05201032
+      berdl: 0.17895171
+      mcsul: 85.0
+      mcsdl: 71.0
+    }
+    ue_info {
+      rnti: 1681692777
+      rsrp: -95.0
+      berul: 0.37663084
+      berdl: 0.6303511
+      mcsul: 30.0
+      mcsdl: 65.0
+    }
+    ue_info {
+      rnti: 1714636915
+      rsrp: -81.0
+      berul: 0.31792402
+      berdl: 0.89231783
+      mcsul: 51.0
+      mcsdl: 56.0
+    }
+  }
+}
+param_map {
+  key: CELL_LOAD
+  string_value: ""169""
+}
+"

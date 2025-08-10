@@ -1,0 +1,191 @@
+--- b1/ric-composer/gNB-e2sm-emu/gnb_message_handlers.c	2024-09-05 20:08:25
++++ b2/ric-composer/gNB-e2sm-emu/gnb_message_handlers.c	2024-09-05 20:23:36
+@@ -1,3 +1,14 @@
++/*
++ *                  Politecnico di Milano
++ *
++ *         Student: Caravano Andrea
++ *            A.Y.: 2023/2024
++ *
++ *   Last modified: 05/09/2024
++ *
++ *     Description: Mobile Radio Networks/Wireless Networks: OpenRAN Project (Milestone 2)
++ */
++
+ //
+ // Created by Eugenio Moro on 04/24/23.
+ //
+@@ -7,11 +18,10 @@
+ #define CONNECTED_UES 4
+ 
+ int gnb_id = 0;
++int cell_load = 0;
+ bool is_initialized = false;
+ typedef struct {
+     int rnti;
+-    bool prop_1;
+-    float prop_2;
+ } ue_struct;
+ ue_struct connected_ue_list[CONNECTED_UES];
+ 
+@@ -23,15 +33,13 @@
+         return;
+     for (int ue=0;ue<CONNECTED_UES;ue++){
+         connected_ue_list[ue].rnti = rand();
+-        connected_ue_list[ue].prop_1 = false;
+-        connected_ue_list[ue].prop_2 = -1;
+     }
+     is_initialized = true;
+ }
+ 
+ /*
+-this function has not been implemented and it won't be needed in the foreseeable future
+-*/
++ * this function has not been implemented and it won't be needed in the foreseeable future
++ */
+ void handle_subscription(RANMessage* in_mess){
+     printf("Not implemented\n");
+     ran_message__free_unpacked(in_mess,NULL);
+@@ -39,8 +47,8 @@
+     assert(0!=0);
+ }
+ /*
+-this function just basically prints out the parameters in the request and passes the in_mess to the response generator
+-*/
++ * this function just basically prints out the parameters in the request and passes the in_mess to the response generator
++ */
+ void handle_indication_request(RANMessage* in_mess,int out_socket, sockaddr_in peeraddr){
+     initialize_ues_if_needed();
+     printf("Indication request for %lu parameters:\n", in_mess->ran_indication_request->n_target_params);
+@@ -53,9 +61,9 @@
+ }
+ 
+ /*
+-this function builds and sends the indication response based on the map inside the in_mess
+-in_mess is cleared here
+-*/
++ * this function builds and sends the indication response based on the map inside the in_mess
++ * in_mess is cleared here
++ */
+ void build_indication_response(RANMessage* in_mess, int out_socket, sockaddr_in servaddr){
+ 
+     RANIndicationResponse rsp = RAN_INDICATION_RESPONSE__INIT;
+@@ -102,8 +110,8 @@
+ }
+ 
+ /*
+-this function frees a map through introspection, maps !!MUST!! be NULL terminated
+-*/
++ * this function frees a map through introspection, maps !!MUST!! be NULL terminated
++ */
+ void free_ran_param_map(RANParamMapEntry **map){
+     int i = 0;
+     while(map[i] != NULL){
+@@ -151,6 +159,8 @@
+             return "gnb_id";
+         case RAN_PARAMETER__UE_LIST:
+             return "ue_list";
++        case RAN_PARAMETER__CELL_LOAD:
++            return "cell_load";
+         default:
+             return "unrecognized param";
+     }
+@@ -165,6 +175,9 @@
+         case RAN_PARAMETER__UE_LIST: // if we receive a ue list message we need to apply its content
+             apply_properties_to_ue_list(target_param_map_entry->ue_list);
+             break;
++        case RAN_PARAMETER__CELL_LOAD:
++            cell_load = atoi(target_param_map_entry->string_value);
++            break;
+         default:
+             printf("ERROR: cannot write RAN, unrecognized target param %d\n", target_param_map_entry->key);
+     }
+@@ -174,23 +187,19 @@
+     // loop the ues and apply what needed to each, according to what is inside the list received from the xapp
+     for(int ue=0; ue<ue_list->n_ue_info; ue++){
+         // apply generic properties (example)
+-        set_ue_properties(ue_list->ue_info[ue]->rnti,
+-                          ue_list->ue_info[ue]->prop_1,
+-                          ue_list->ue_info[ue]->prop_2);
++        set_ue_properties(ue_list->ue_info[ue]->rnti);
+ 
+-        // more stuff later when needed     
++        // more stuff later when needed
+     }
+ }
+ 
+-void set_ue_properties(int rnti, bool prop_1, float prop_2){
++void set_ue_properties(int rnti){
+ 
+     // iterate ue list until rnti is found
+     bool rnti_not_found = true;
+     for(int ue=0; ue<CONNECTED_UES; ue++) {
+         if(connected_ue_list[ue].rnti == rnti){
+             printf("RNTI found\n");
+-            connected_ue_list[ue].prop_1 = prop_1;
+-            connected_ue_list[ue].prop_2 = prop_2;
+             rnti_not_found = false;
+             break;
+         } else {
+@@ -271,25 +280,19 @@
+         // read rnti and add to message
+         ue_info_list[i]->rnti = connected_ue_list[i].rnti;
+ 
+-        // read mesures and add to message (actually just send random data)
++        // read mesures and add to message
+ 
+         // measures
+-        ue_info_list[i]->has_meas_type_1 = 1;
+-        ue_info_list[i]->meas_type_1 = rand();
+-        ue_info_list[i]->has_meas_type_2 = 1;
+-        ue_info_list[i]->meas_type_2 = rand();
+-        ue_info_list[i]->has_meas_type_3 = 1;
+-        ue_info_list[i]->meas_type_3 = rand();
+-
+-        // properties
+-        ue_info_list[i]->has_prop_1 = 1;
+-        ue_info_list[i]->prop_1 = connected_ue_list[i].prop_1;
+-        if(connected_ue_list[i].prop_2 > -1){
+-            ue_info_list[i]->has_prop_2 = 1;
+-            ue_info_list[i]->prop_2 = connected_ue_list[i].prop_2;
+-        }
+-
+-
++        ue_info_list[i]->has_rsrp = 1;
++        ue_info_list[i]->rsrp = -((rand() % (144 - 44 + 1)) + 44); // dBm
++        ue_info_list[i]->has_berul = 1;
++        ue_info_list[i]->berul = (double)rand() / (double)RAND_MAX; // this will produce a random between 0 and 1
++        ue_info_list[i]->has_berdl = 1;
++        ue_info_list[i]->berdl = (double)rand() / (double)RAND_MAX;
++        ue_info_list[i]->has_mcsul = 1;
++        ue_info_list[i]->mcsul = (rand() % (100 - 3 + 1)) + 3; // Mb/s
++        ue_info_list[i]->has_mcsdl = 1;
++        ue_info_list[i]->mcsdl = (rand() % (100 - 3 + 1)) + 3;
+     }
+     // add a null terminator to the list
+     ue_info_list[CONNECTED_UES] = NULL;
+@@ -298,7 +301,7 @@
+     return ue_list_m;
+ }
+ 
+-// careful, this function leaves dangling pointers - not a big deal in this case though 
++// careful, this function leaves dangling pointers - not a big deal in this case though
+ void free_ue_list(UeListM* ue_list_m){
+     if(ue_list_m->connected_ues > 0){
+         // free the ue list content first
+@@ -325,8 +328,13 @@
+             map_entry->value_case=RAN_PARAM_MAP_ENTRY__VALUE_UE_LIST;
+             map_entry->ue_list = build_ue_list_message();
+             break;
++        case RAN_PARAMETER__CELL_LOAD:
++            cell_load = (rand() % (275 - 24 + 1)) + 24;
++            map_entry->value_case = RAN_PARAM_MAP_ENTRY__VALUE_STRING_VALUE;
++            map_entry->string_value = int_to_charray(cell_load);
++            break;
+         default:
+             printf("Unrecognized param %d\n",ran_par_enum);
+             assert(0!=0);
+     }
+-}
+\ No newline at end of file
++}
